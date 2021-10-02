@@ -12,7 +12,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Entity
 @Table(name = "people")
-public class Person implements Serializable {
+public class Person {
 
     @Id
     @Column(name = "id")
